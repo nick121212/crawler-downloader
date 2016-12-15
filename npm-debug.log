@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/srv/ff-crawler/crawler-downloader',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/NICK/.npm/crawler-downloader/1.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/NICK/.npm correctMkdir not in flight; initializing
+10 info lifecycle crawler-downloader@1.0.1~prepublish: crawler-downloader@1.0.1
+11 silly lifecycle crawler-downloader@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/NICK/.npm/crawler-downloader/1.0.1/package.tgz',
+12 verbose tar pack   '/srv/ff-crawler/crawler-downloader' ]
+13 verbose tarball /Users/NICK/.npm/crawler-downloader/1.0.1/package.tgz
+14 verbose folder /srv/ff-crawler/crawler-downloader
+15 verbose addLocalTarball adding from inside cache /Users/NICK/.npm/crawler-downloader/1.0.1/package.tgz
+16 verbose correctMkdir /Users/NICK/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd crawler-downloader@1.0.1
+18 verbose afterAdd /Users/NICK/.npm/crawler-downloader/1.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/NICK/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/NICK/.npm/crawler-downloader/1.0.1/package/package.json written
+21 silly publish { name: 'crawler-downloader',
+21 silly publish   version: '1.0.1',
+21 silly publish   description: '## 下载htlm文档中间件',
+21 silly publish   main: 'built/app.js',
+21 silly publish   scripts:
+21 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+21 silly publish      built: 'babel -d built/ src/ ' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/nick121212/crawler-downloader.git' },
+21 silly publish   author: { name: 'NICK' },
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-core': '^6.0.20',
+21 silly publish      'babel-plugin-syntax-async-functions': '^6.8.0',
+21 silly publish      'babel-plugin-transform-async-to-generator': '^6.8.0',
+21 silly publish      'babel-plugin-transform-runtime': '^6.12.0',
+21 silly publish      'babel-polyfill': '^6.0.16',
+21 silly publish      'babel-preset-es2015': '^6.13.1',
+21 silly publish      'babel-preset-es2015-node5': '^1.1.2',
+21 silly publish      'babel-preset-stage-0': '^6.5.0',
+21 silly publish      'babel-preset-stage-3': '^6.17.0',
+21 silly publish      'babel-register': '^6.4.3',
+21 silly publish      'babel-runtime': '^6.11.6',
+21 silly publish      'eslint-plugin-promise': '^3.4.0',
+21 silly publish      'eventsource-polyfill': '^0.9.6' },
+21 silly publish   dependencies:
+21 silly publish    { 'engine.io': '^1.8.1',
+21 silly publish      'engine.io-client': '^1.8.1',
+21 silly publish      'eureca.io': '^0.6.42',
+21 silly publish      lodash: '^4.17.2',
+21 silly publish      sockjs: '^0.3.18',
+21 silly publish      'sockjs-client': '^1.1.1',
+21 silly publish      superagent: '^3.1.0',
+21 silly publish      'superagent-charset': '^1.1.1',
+21 silly publish      'superagent-defaults': '^0.1.14',
+21 silly publish      'superagent-promise': '^1.1.0',
+21 silly publish      'superagent-proxy': '^1.0.2',
+21 silly publish      'superagent-retry': '^0.6.0' },
+21 silly publish   readme: '# crawler-downloader\n\n## 下载htlm文档中间件',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'b4defe1b71742796ddf5d3915b1b3d1c9b825010',
+21 silly publish   bugs: { url: 'https://github.com/nick121212/crawler-downloader/issues' },
+21 silly publish   homepage: 'https://github.com/nick121212/crawler-downloader#readme',
+21 silly publish   _id: 'crawler-downloader@1.0.1',
+21 silly publish   _shasum: '00544ebe9c20ececd089d7423ba0370b10cdf765',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name crawler-downloader
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'crawler-downloader',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'crawler-downloader',
+26 silly mapToRegistry   name: 'crawler-downloader',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/crawler-downloader
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/NICK/.npm/crawler-downloader/1.0.1/package.tgz
+30 verbose request uri https://registry.npmjs.org/crawler-downloader
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 3:23:14 PM
+33 verbose request using bearer token for auth
+34 verbose request id b7790ed9cd7499b3
+35 http request PUT https://registry.npmjs.org/crawler-downloader
+36 http 403 https://registry.npmjs.org/crawler-downloader
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 15 Dec 2016 07:23:15 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1481786595.248655,VS0,VE581',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/NICK/.npm/registry.npmjs.org/crawler-downloader on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : crawler-downloader
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid crawler-downloader
+43 verbose cwd /srv/ff-crawler/crawler-downloader
+44 error Darwin 16.1.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.9.2
+47 error npm  v3.10.9
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.1." : crawler-downloader
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
